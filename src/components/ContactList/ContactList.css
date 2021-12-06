@@ -10,6 +10,31 @@
     align-items: center;
 }
 
+.listHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+ 
+.listHeader button{
+    cursor: pointer;
+    outline: none;
+    padding: 4px 10px;
+    color: #fff;
+    background-color: #6D28D9;
+    border: none;
+    border-radius: 5px;
+    transition: linear .3s;
+}
+
+.listHeader h {
+    font-weight: bold;
+    font-size: 20px;
+    color: #474545;
+}
 .contactList button{
     cursor: pointer;
     border: 1px solid #DC2626;
@@ -19,6 +44,11 @@
     background-color: #fff;
     border-radius: 5px;
     transition: linear .3s;
+}
+
+.listWrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .contactList button:hover,
@@ -35,3 +65,4 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
