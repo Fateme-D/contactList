@@ -11,7 +11,12 @@ const Contact = ({contact , onDelete }) => {
                     <p>name: {email}</p>
                 </div>
             </Link>
-            <button onClick={() => onDelete(id)}>Delete</button>
+            <div>
+                <Link to={`/edit/${id}`}>
+                    <button className="editBtn">Edit</button>
+                </Link>
+                <button onClick={() => onDelete(id)} className="deleteBtn">Delete</button>
+            </div>
         </div>
     );
 }
