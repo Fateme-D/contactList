@@ -87,6 +87,20 @@
     justify-content: center;
 }
 
+.searchBox {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #4f4f4f;
+}
+
+.searchBox:focus{
+    border: 2px solid #6D28D9;
+}
+
+
 
 /* contactDetail page style: */
 .contactDetail{
@@ -108,3 +122,5 @@
     text-decoration: none;
 }
 /*end*/
+
+
