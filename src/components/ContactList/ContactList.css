@@ -17,6 +17,8 @@
     width: 100%;
     margin-top: 20px;
     padding: 0 10px;
+    min-width: 240px;
+    margin-bottom: 12px;
 }
  
 .listHeader button{
@@ -94,6 +96,8 @@
     border-radius: 5px;
     font-size: 14px;
     color: #4f4f4f;
+    min-width: 240px;
+    margin-bottom: 14px;
 }
 
 .searchBox:focus{
